@@ -9,6 +9,7 @@ const questions = [
                 C: "Thomas A. Anderson",
                 D: "James L. Burns",
                 }
+
     },{
         Q2: "What is the name of Morpheus's ship?",
         q2Answers: {
@@ -17,6 +18,7 @@ const questions = [
                 C: "The Nautilus",
                 D: "The Millenium Falcon",
                 }
+
     },{
         Q3: "What is the phrase written above the door in the Oracle's kitchen?",
         q3Answers: {
@@ -25,6 +27,7 @@ const questions = [
                 C: "Veni Vidi Vici",
                 D: "Mihi Mater Piscis Est",
                 }
+
     },{
         Q4: "What is the name of the program that protects The Oracle?",
         q4Answers: {
@@ -42,7 +45,6 @@ const questions = [
                 C: "The Yellow Brick Road",
                 D: "The White Rabbit",
                 }
-
     
     },{ 
         Q6: "What is the name of the last city of humanity?",
@@ -50,10 +52,10 @@ const questions = [
                 A: "Terra Nova",
                 B: "Zion",
                 C: "Eden",
-                D: "New New York",
+                D: "Asgard",
                 }
 
-    },{ Q7: "Who designed the Woman in the red dress program?"
+    },{ Q7: "Who designed the 'Woman in the red dress' program?",
         q7Answers: {
                 A: "Cypher",
                 B: "The Architect",
@@ -69,7 +71,7 @@ const questions = [
                 D: "She finds it in the matrix code",
                 }
 
-    },{ Q9: "What is the name of the Merovingian's wife?"
+    },{ Q9: "What is the name of the Merovingian's wife?",
         q9Answers: {
                 A: "Persephone",
                 B: "Athena",
@@ -77,13 +79,13 @@ const questions = [
                 D: "Hera",
                 }
 
-    },{ Q10: "What iteration of the Matrix does the Architect tell Neo they are on?"
+    },{ Q10: "What iteration of the Matrix does the Architect tell Neo they are on?",
         q10Answers: {
                 A: "8",
                 B: "6",
                 C: "25",
                 D: "10",
                 }
-
+            
     
     }]
