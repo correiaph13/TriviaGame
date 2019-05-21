@@ -1,0 +1,26 @@
+body {
+    background: black;
+    background-image: url("https://images4.alphacoders.com/270/thumb-1920-27094.jpg") ;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    align-content: center;
+}
+
+h1, p {
+    background: black;
+    margin: 1%;
+    padding: 2%;
+    border: 5px;
+    border: solid;
+    border-color: #00ff41;  
+
+}
+
+h3 {
+    background: black;
+    margin: 1%;
+    padding: 1%;
+    border: 4px;
+    border: solid;
+    border-color: #00ff41;
+}
