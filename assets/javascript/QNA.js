@@ -3,7 +3,7 @@
 const questions = [
     {
         Q: "what is Neo's matrix name?",
-        q1answers: {
+        qAnswers: {
                 A: "John P. Black",
                 B: "Timothy J. Washington",
                 C: "Thomas A. Anderson",
@@ -12,7 +12,7 @@ const questions = [
 
     },{
         Q: "What is the name of Morpheus's ship?",
-        q2Answers: {
+        qAnswers: {
                 A: "The Enterprise",
                 B: "The Nebuchadnezzar",
                 C: "The Nautilus",
@@ -21,7 +21,7 @@ const questions = [
 
     },{
         Q: "What is the phrase written above the door in the Oracle's kitchen?",
-        q3Answers: {
+        qAnswers: {
                 A: "Caveat Emptor",
                 B: "Temet Nosce",
                 C: "Veni Vidi Vici",
@@ -30,7 +30,7 @@ const questions = [
 
     },{
         Q: "What is the name of the program that protects The Oracle?",
-        q4Answers: {
+        qAnswers: {
                 A: "Seraph",
                 B: "Windows Defender",
                 C: "Achilles",
@@ -39,7 +39,7 @@ const questions = [
 
     },{ 
         Q: "What clue does Morpheus tell Neo to follow first?",
-        q5Answers: {
+        qAnswers: {
                 A: "The Signs",
                 B: "His Heart",
                 C: "The Yellow Brick Road",
@@ -48,7 +48,7 @@ const questions = [
     
     },{ 
         Q: "What is the name of the last city of humanity?",
-        q6Answers: {
+        qAnswers: {
                 A: "Terra Nova",
                 B: "Zion",
                 C: "Eden",
@@ -56,7 +56,7 @@ const questions = [
                 }
 
     },{ Q: "Who designed the 'Woman in the red dress' program?",
-        q7Answers: {
+        qAnswers: {
                 A: "Cypher",
                 B: "The Architect",
                 C: "Trinity",
@@ -64,7 +64,7 @@ const questions = [
                 }
 
     },{ Q: "How did Trinity know Neo was the one?",
-        q8Answers: {
+        qAnswers: {
                 A: "She had a vision",
                 B: "The Architect told her",
                 C: "She loves him",
@@ -72,7 +72,7 @@ const questions = [
                 }
 
     },{ Q: "What is the name of the Merovingian's wife?",
-        q9Answers: {
+        qAnswers: {
                 A: "Persephone",
                 B: "Athena",
                 C: "Aphrodite",
@@ -80,7 +80,7 @@ const questions = [
                 }
 
     },{ Q: "What iteration of the Matrix does the Architect tell Neo they are on?",
-        q10Answers: {
+        qAnswers: {
                 A: "8",
                 B: "6",
                 C: "25",
@@ -89,3 +89,4 @@ const questions = [
             
     
     }]
+  
