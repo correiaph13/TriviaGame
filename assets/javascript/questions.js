@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        Q: "what is Neo's matrix name?",
+        q: "what is Neo's matrix name?",
         q1answers: {
                 A: "John P. Black",
                 B: "Timothy J. Washington",
@@ -11,7 +11,7 @@ const questions = [
                 }
 
     },{
-        Q: "What is the name of Morpheus's ship?",
+        q: "What is the name of Morpheus's ship?",
         q2Answers: {
                 A: "The Enterprise",
                 B: "The Nebuchadnezzar",
@@ -20,7 +20,7 @@ const questions = [
                 }
 
     },{
-        Q: "What is the phrase written above the door in the Oracle's kitchen?",
+        q: "What is the phrase written above the door in the Oracle's kitchen?",
         q3Answers: {
                 A: "Caveat Emptor",
                 B: "Temet Nosce",
@@ -29,7 +29,7 @@ const questions = [
                 }
 
     },{
-        Q: "What is the name of the program that protects The Oracle?",
+        q: "What is the name of the program that protects The Oracle?",
         q4Answers: {
                 A: "Seraph",
                 B: "Windows Defender",
@@ -38,7 +38,7 @@ const questions = [
                 }
 
     },{ 
-        Q: "What clue does Morpheus tell Neo to follow first?",
+        q: "What clue does Morpheus tell Neo to follow first?",
         q5Answers: {
                 A: "The Signs",
                 B: "His Heart",
@@ -47,7 +47,7 @@ const questions = [
                 }
     
     },{ 
-        Q: "What is the name of the last city of humanity?",
+        q: "What is the name of the last city of humanity?",
         q6Answers: {
                 A: "Terra Nova",
                 B: "Zion",
@@ -55,7 +55,7 @@ const questions = [
                 D: "Asgard",
                 }
 
-    },{ Q: "Who designed the 'Woman in the red dress' program?",
+    },{ q: "Who designed the 'Woman in the red dress' program?",
         q7Answers: {
                 A: "Cypher",
                 B: "The Architect",
@@ -63,7 +63,7 @@ const questions = [
                 D: "Mouse",
                 }
 
-    },{ Q: "How did Trinity know Neo was the one?",
+    },{ q: "How did Trinity know Neo was the one?",
         q8Answers: {
                 A: "She had a vision",
                 B: "The Architect told her",
@@ -71,7 +71,7 @@ const questions = [
                 D: "She finds it in the matrix code",
                 }
 
-    },{ Q: "What is the name of the Merovingian's wife?",
+    },{ q: "What is the name of the Merovingian's wife?",
         q9Answers: {
                 A: "Persephone",
                 B: "Athena",
@@ -79,7 +79,7 @@ const questions = [
                 D: "Hera",
                 }
 
-    },{ Q: "What iteration of the Matrix does the Architect tell Neo they are on?",
+    },{ q: "What iteration of the Matrix does the Architect tell Neo they are on?",
         q10Answers: {
                 A: "8",
                 B: "6",
