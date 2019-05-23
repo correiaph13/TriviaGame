@@ -16,27 +16,33 @@
         <p> Red pill or Blue pill? </p>
         <img href="assets/images/pill-choose.jpg">
         <section id="results">section where results will go</section>
-        <section id="questions"></section>
+        <section id="questionsForm"></section>
 
-        <script>
-                
-            // function questionLayout () {
-            //         // for (i=0; i<questions.length;i++);
-            //         // console.log(questions.Q);
-            //     }
-
-                console.log(questions);
-                //for some reason this function is not able to access the question array
-                        //for every i create a div containing it
-         </script>
-        
-             
-
-                
+              
 <br>
 <br>
 <input type="submit" value="Submit Answers">
+<script>
+    
+//create divs using jquery for all the questions and answers
+                
+function questionLayout () {
+                    //for every i create a div containing it
+                        for (i=0; i<questions.length;i++){
+                            console.log(questions[i].Q);
+                            console.log(questions[i].qAnswers.A);
+                            console.log(questions[i].qAnswers.B);
+                            console.log(questions[i].qAnswers.C);
+                            console.log(questions[i].qAnswers.D);
+                            // var newDiv= $("<div>")
+                            // $(questionsForm).append(newDiv)
+                        }
+                    }
+    
+                    questionLayout()      
+        
 
+</script>
         
         </form>
 
