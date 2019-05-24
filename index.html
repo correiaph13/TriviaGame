@@ -29,22 +29,25 @@
    
         
 function questionLayout () {
-            //for every i create a div containing it
+            //for every i (question) create a div containing it
             for (i=0; i<questions.length;i++){
             var newDivQ = ("<div class = 'questionContainer'>");
-            $('#questionsForm').append(newDivQ + questions[i].Q + "<br>" );
-                         
-                var newDivA = ("<div class = 'answerContainer'>");
-                $('.questionContainer').append(newDivA + "test");
-                console.log(questions[i].Q);
-            
-            }
+            $('#questionsForm').append(newDivQ + questions[i].Q );
+
+        }
+    
+            //https://www.w3schools.com/js/js_arrays.asp
 }
+// ==============================================================================
 
-questionLayout ();
+questionLayout();
 
-           
-                         
+// function answerLayout () {
+//     for (i=0; i<questions.length;i++){
+            
+// }
+
+                 
 
 </script>
         <section id="results">section where results will go</section>
