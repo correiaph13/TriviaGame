@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
     <script src="assets/javascript/questions.js"></script>
 </head>
@@ -15,7 +16,7 @@
         <h1>Wh@t I$ th3 M@tri%?</h1> 
         <p> Red pill or Blue pill? </p>
         <img href="assets/images/pill-choose.jpg">
-        <section id="results">section where results will go</section>
+        
         <section id="questionsForm"></section>
 
               
@@ -25,25 +26,39 @@
 <script>
     
 //create divs using jquery for all the questions and answers
-                
+   
+        
 function questionLayout () {
                     //for every i create a div containing it
                         for (i=0; i<questions.length;i++){
-                            console.log(questions[i].Q);
-                            console.log(questions[i].qAnswers.A);
-                            console.log(questions[i].qAnswers.B);
-                            console.log(questions[i].qAnswers.C);
-                            console.log(questions[i].qAnswers.D);
-                            // var newDiv= $("<div>")
-                            // $(questionsForm).append(newDiv)
+                        console.log(questions[i].Q);
+                        var newDivQ = ("<div class = 'questionContainer'>");
+                        $('#questionsForm').append(newDivQ + questions[i].Q);
+
+                           // console.log(questions[i].qAnswers.A);
+                            // console.log(questions[i].qAnswers.B);
+                            // console.log(questions[i].qAnswers.C);
+                            // console.log(questions[i].qAnswers.D);}
                         }
+                        }
+function answerLayout () {
+                        for (j=0; j<questions.length;j++){
+                        var newDivA = ("<div class = 'answerContainer'>");
+                        $('#questionContainer').append(newDivA + questions[j].qAnswers.A);
+                        
+                    console.log(questions[j].qAnswers);
+                    
                     }
-    
-                    questionLayout()      
-        
+                    }
+                        
+                    questionLayout()   
+                    answerLayout ()   
+                
+           
+                         
 
 </script>
-        
+        <section id="results">section where results will go</section>
         </form>
 
     </section>

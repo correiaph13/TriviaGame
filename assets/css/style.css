@@ -26,3 +26,13 @@ h3 {
     border: solid;
     border-color: #00ff41;
 }
+
+.questionContainer {
+    background: black;
+    margin: 1%;
+    padding: 1%;
+    border: 4px;
+    border: solid;
+    border-color: #00ff41;
+}
+
