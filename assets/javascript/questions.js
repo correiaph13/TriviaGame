@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        Q: "what is Neo's matrix name?",
+        Q: "What is Neo's matrix name?",
         qAnswers: {
                 A: "John P. Black",
                 B: "Timothy J. Washington",
@@ -16,7 +16,7 @@ const questions = [
                 A: "The Enterprise",
                 B: "The Nebuchadnezzar",
                 C: "The Nautilus",
-                D: "The Millenium Falcon",
+                D: "The Logos"
                 }
 
     },{
