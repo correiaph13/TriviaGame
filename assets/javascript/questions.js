@@ -9,7 +9,7 @@ const questions = [
                 C: "Thomas A. Anderson",
                 D: "James L. Burns",
                 },
-        correctA: "C"
+        correctA: "answerC"
 
     },{
         Q: "What is the name of Morpheus's ship?",
@@ -19,7 +19,7 @@ const questions = [
                 C: "The Nautilus",
                 D: "The Logos"
                 },
-        correctA: "B"
+        correctA: "answerB"
 
     },{
         Q: "What is the phrase written above the door in the Oracle's kitchen?",
@@ -29,7 +29,7 @@ const questions = [
                 C: "Veni Vidi Vici",
                 D: "Draco Dormiens Nunquam Titillandus",
                 },
-        correctA: "B"
+        correctA: "answerB"
 
     },{
         Q: "What is the name of the program that protects The Oracle?",
@@ -39,7 +39,7 @@ const questions = [
                 C: "Achilles",
                 D: "Cerberus",
                 },
-        correctA: "A"
+        correctA: "answerA"
 
     },{ 
         Q: "What clue does Morpheus tell Neo to follow first?",
@@ -49,7 +49,7 @@ const questions = [
                 C: "The Yellow Brick Road",
                 D: "The White Rabbit",
                 },
-        correctA: "D"
+        correctA: "answerD"
     },{ 
         Q: "What is the name of the last city of humanity?",
         qAnswers: {
@@ -58,7 +58,7 @@ const questions = [
                 C: "Eden",
                 D: "Asgard",
                 },
-        correctA: "B"
+        correctA: "answerB"
 
     },{ Q: "Who designed the 'Woman in the red dress' program?",
         qAnswers: {
@@ -67,7 +67,7 @@ const questions = [
                 C: "Trinity",
                 D: "Mouse",
                 },
-        correctA: "D"
+        correctA: "answerD"
 
     },{ Q: "How did Trinity know Neo was the one?",
         qAnswers: {
@@ -76,7 +76,7 @@ const questions = [
                 C: "She loves him",
                 D: "She finds it in the matrix code",
                 },
-        correctA: "C"
+        correctA: "answerC"
 
     },{ Q: "What is the name of the Merovingian's wife?",
         qAnswers: {
@@ -85,7 +85,7 @@ const questions = [
                 C: "Aphrodite",
                 D: "Hera",
                 },
-        correctA: "A"
+        correctA: "answerA"
 
     },{ Q: "What iteration of the Matrix does the Architect tell Neo they are on?",
         qAnswers: {
@@ -94,7 +94,7 @@ const questions = [
                 C: "25",
                 D: "10",
                 },
-        correctA: "B"
+        correctA: "answerB"
             
     
     }]
