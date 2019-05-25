@@ -31,21 +31,27 @@
 function questionLayout () {
             //for every i (question) create a div containing it
             for (i=0; i<questions.length;i++){
-            var newDivQ = ("<div class = 'questionContainer'>");
-            $('#questionsForm').append(newDivQ + questions[i].Q );
-
+            var newDivQ = $("<div class = 'questionContainer'>").text(questions[i].Q);
+            var newDivA = $("<div>").text(questions[i].qAnswers.A)
+            var newDivB = $("<div>").text(questions[i].qAnswers.B) 
+            var newDivC = $("<div>").text(questions[i].qAnswers.C)
+            var newDivD = $("<div>").text(questions[i].qAnswers.D)
+                
+            $(newDivQ).append(newDivA);
+            $(newDivQ).append(newDivB);
+            $(newDivQ).append(newDivC);
+            $(newDivQ).append(newDivD);
+            
+            $('#questionsForm').append(newDivQ);
         }
     
-            //https://www.w3schools.com/js/js_arrays.asp
+            
 }
 // ==============================================================================
 
 questionLayout();
 
-// function answerLayout () {
-//     for (i=0; i<questions.length;i++){
-            
-// }
+
 
                  
 
