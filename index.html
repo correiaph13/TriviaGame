@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
     <script src="assets/javascript/questions.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    
 </head>
 <body>
     <section id="container"> 
@@ -23,39 +24,12 @@
 <br>
 <br>
 <input type="submit" value="Submit Answers">
-<script>
+
     
-//create divs using jquery for all the questions and answers
-   
-        
-function questionLayout () {
-            //for every i (question) create a div containing it
-            for (i=0; i<questions.length;i++){
-            var newDivQ = $("<div class = 'questionContainer'>").text(questions[i].Q);
-            var newDivA = $("<div>").text(questions[i].qAnswers.A)
-            var newDivB = $("<div>").text(questions[i].qAnswers.B) 
-            var newDivC = $("<div>").text(questions[i].qAnswers.C)
-            var newDivD = $("<div>").text(questions[i].qAnswers.D)
-                
-            $(newDivQ).append(newDivA);
-            $(newDivQ).append(newDivB);
-            $(newDivQ).append(newDivC);
-            $(newDivQ).append(newDivD);
-            
-            $('#questionsForm').append(newDivQ);
-        }
-    
-            
-}
-// ==============================================================================
 
-questionLayout();
+       
 
 
-
-                 
-
-</script>
         <section id="results">section where results will go</section>
         </form>
 
