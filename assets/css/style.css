@@ -37,7 +37,7 @@ h3 {
     font-size: large
 }
 
-.answerA, .answerB, .answerC, .answerD {
+/* .answerA, .answerB, .answerC, .answerD {
     background: black;
     margin: 1%;
     padding: 1%;
@@ -45,5 +45,5 @@ h3 {
     border: solid;
     border-color: #F0F562;
     font-size: medium;
-}
+} */
 
