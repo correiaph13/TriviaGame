@@ -37,7 +37,7 @@ h3 {
     font-size: large
 }
 
-.answerA, .answerB, .answerC, .answerD {
+.answerContainer {
     background: black;
     margin: 1%;
     padding: 1.5%;
