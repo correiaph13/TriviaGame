@@ -41,18 +41,19 @@ function questionLayout () {
     
     $('#questionsForm').append(newDivQ);
 
-    // var correctAnswers = [questions[i].correctA];
+    var correctAnswers = [questions[i].correctA];
 
 }   
 }
 questionLayout();
-// var userAnswers = [];
+var userAnswers = [];
 
-// $("button").on("click", function(event){
-//     var userInput = $(this).attr("class");
-//     userAnswers.push(userInput);
-//     console.log(userAnswers);
+$("input").on("click", function(event){
+    var userInput = $(this).attr("class");
+    userAnswers.push(userInput);
+    console.log(userAnswers);
 
-//     }); 
+    }); 
+
 
 });

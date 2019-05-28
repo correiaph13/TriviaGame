@@ -1,6 +1,6 @@
 body {
-    background: black;
-    background-image: url("https://www.desktophut.com/wp-content/uploads/2018/01/ezgif-2-75679e8f20.gif") ;
+    background: transparent;
+    background-image: url("https://i0.wp.com/media1.tenor.com/images/4ac44c8eed874188ed4b2babebe78942/tenor.gif?resize=498%2C280&ssl=1");
     color: white;
     font-family: 'Overpass Mono', monospace;
     align-content: center;
@@ -8,12 +8,12 @@ body {
 }
 
 h1, p {
-    background: black;
+    background: transparent;
     margin: 1%;
     padding: 2%;
     border: 5px;
     border: solid;
-    border-color: #00ff41;  
+    border-color: #00ff403b;  
     overflow: auto;
 
 }
@@ -24,28 +24,34 @@ h3 {
     padding: 1%;
     border: 4px;
     border: solid;
-    border-color: #00ff41;
+    border-color: #00ff403b;
 }
 
 .questionContainer {
-    background: black;
+    background: transparent;
+    font-weight: bold;
+    color:white;
     margin: 1%;
     padding: 1%;
     border: 4px;
     border: solid;
-    border-color: #00ff41;
+    border-color:#00ff403b;
     font-size: large
 }
 
 .answerContainer {
-    background: black;
+    background: transparent;
     margin: 1%;
     padding: 1.5%;
     border: 4px;
     border: solid;
-    border-color: #F0F562;
+    border-color:black;
     font-size: medium;
     color: white;
     
 }
+
+
+
+
 
