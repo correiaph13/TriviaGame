@@ -13,7 +13,7 @@ $(document).ready(function() {
             display.textContent = minutes + ":" + seconds;
     
             if (--timer < 0) {
-                timer = duration;
+
                 alert("you have been terminated");
             }
         }, 1000);
@@ -90,6 +90,7 @@ $("#userAnswers").on("click", function(event){
     }
     else {
         var correctAnswers = 0;
+        
 
         for (let j = 0; j < userInput.length; j++) {
             console.log(questions[j].correctA, userInput[j].value);
@@ -99,7 +100,7 @@ $("#userAnswers").on("click", function(event){
             }
 
         }
-
+        alert(`you got  ${correctAnswers} correct answers!`)
         console.log(correctAnswers);
 
     }
