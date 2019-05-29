@@ -6,7 +6,7 @@ const questions = [
         qAnswers: {
                 A: "John P. Black",
                 B: "Timothy J. Washington",
-                C: "Thomas A. Anderson",
+                C: "Thomas A. Anderson", 
                 D: "James L. Burns",
                 },
         correctA: "answerC"
