@@ -8,6 +8,7 @@ $(document).ready(function() {
 
         //for every i (question) create a div containing it, used tilde to be able to use the vartiable inside the newDivA 
         // string to iterate the radio names in order to separate the groups of answers for each question
+        //syntax for using variable within string is ${var}
         // to each question div, i appended the text for the answers and prepended a radio button to the text
 
         for (i=0; i<questions.length; i++){
@@ -51,20 +52,24 @@ $(document).ready(function() {
 
             // ============================================================================================ //
 
-    var correctA = [questions[i].correctA]
-    // console.log(correctA);
+
+
+}   
+}
+questionLayout();
 
 $("#userAnswers").on("click", function(event){
     var userInput = $("input[type='radio']:checked");
     
-
+    console.log(questions[j].correctA, userInput[j].value);
+    
     if (userInput.length < 10) {
         alert ("Please answer all the questions first!");
     }
     else {
         var correctAnswers = 0;
         for (let j = 0; j < userInput.length; j++) {
-            if (correctA[j] === userInput[j].value) {
+            if (questions[j].correctA === userInput[j].value) {
                 correctAnswers++;
             }  ; 
         
@@ -78,11 +83,6 @@ $("#userAnswers").on("click", function(event){
 
     }); 
     
-
-}   
-}
-questionLayout();
-
 
 
 });
