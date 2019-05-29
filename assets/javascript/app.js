@@ -53,25 +53,25 @@ function questionLayout () {
 questionLayout();
 
 $("#userAnswers").on("click", function(event){
-    var userInput = $("input[type='radio']:checked")
+    var userInput = $("input[type='radio']:checked");
     
 
     if (userInput.length < 10) {
         alert ("Please answer all the questions first!")
     }
     else {
-        for (let i = 0; i < userInput.length; i++) {
+        for (let i = 0; i < userInput; i++) {
             if (questions[i].correctA === userInput[i].value) {
                 correctAnswers++;
             }
           console.log(userInput[i].value) ;  
+          console.log(questions[i].correctA)
           
         }
         
         
     }
 
-console.log(correctAnswers);
     }); 
 
 
