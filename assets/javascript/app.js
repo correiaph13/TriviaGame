@@ -22,15 +22,15 @@ $(document).ready(function() {
                 var newDivAT = $("<div class='answerContainer'>").text(questions[i].qAnswers.A);
                 
                 var newDivB = $(`<input type='radio' name=radioName${i}  class = 'answerB'>`);
-                newDivB.attr('value', questions[i].qAnswers.A); 
+                newDivB.attr('value', questions[i].qAnswers.B); 
                 var newDivBT = $("<div class='answerContainer'>").text(questions[i].qAnswers.B);
             
                 var newDivC = $(`<input type='radio' name=radioName${i}  class = 'answerC'>`); 
-                newDivC.attr('value', questions[i].qAnswers.A);
+                newDivC.attr('value', questions[i].qAnswers.C);
                 var newDivCT = $("<div class='answerContainer'>").text(questions[i].qAnswers.C);
 
                 var newDivD = $(`<input type='radio' name=radioName${i}  class = 'answerD'>`); 
-                newDivD.attr('value', questions[i].qAnswers.A);
+                newDivD.attr('value', questions[i].qAnswers.D);
                 var newDivDT = $("<div class='answerContainer'>").text(questions[i].qAnswers.D);
         
                 $(newDivQ).append(newDivAT);
@@ -70,19 +70,16 @@ $("#userAnswers").on("click", function(event){
         var correctAnswers = 0;
 
         for (let j = 0; j < userInput.length; j++) {
-            console.log(userInput[j].value);
-            
+            console.log(questions[j].correctA, userInput[j].value);
+
             if (questions[j].correctA === userInput[j].value) {
                 correctAnswers++;
-                console.log(correctAnswers);
-            }  ; 
-        
+            }
+
         }
-        
-       
-          
-          
-        
+
+        console.log(correctAnswers);
+
     }
 
     }); 
