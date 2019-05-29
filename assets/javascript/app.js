@@ -1,7 +1,7 @@
         
 $(document).ready(function() {
 
-var correctAnswers = 0;
+
 
 
 function questionLayout () {
@@ -49,35 +49,39 @@ function questionLayout () {
     $(newDivDT).prepend(newDivD);
 
     $('#questionsForm').append(newDivQ);
-// console.log(questions[i]);
-}   
-}
-questionLayout();
+
+    var correctA = [questions[i].correctA];
+    // console.log(correctA);
 
 $("#userAnswers").on("click", function(event){
     var userInput = $("input[type='radio']:checked");
     
 
     if (userInput.length < 10) {
-        alert ("Please answer all the questions first!")
+        alert ("Please answer all the questions first!");
     }
     else {
-        for (let i = 0; i < userInput.length; i++) {
-            if (questions[i].correctA === userInput[i].value) {
+        var correctAnswers = 0;
+        for (let j = 0; j < userInput.length; j++) {
+            if (correctA === userInput[j].value) {
                 correctAnswers++;
-            }
-          console.log(userInput[i].value) ; 
-          console.log(questions[i]); 
-          
-          
-          
-          
+            }  ; 
+        
         }
         
+        console.log(correctA);
+          
+          
         
     }
 
     }); 
+    
+
+}   
+}
+questionLayout();
+
 
 
 });
