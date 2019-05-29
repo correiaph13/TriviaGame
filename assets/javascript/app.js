@@ -50,20 +50,21 @@ function questionLayout () {
 
     $('#questionsForm').append(newDivQ);
 
-    var correctA = [questions[i].correctA];
+    var correctA = [questions[i].correctA]
     // console.log(correctA);
 
 $("#userAnswers").on("click", function(event){
     var userInput = $("input[type='radio']:checked");
+    var correctAnswers = 0;
     
 
     if (userInput.length < 10) {
         alert ("Please answer all the questions first!");
     }
     else {
-        var correctAnswers = 0;
+        
         for (let j = 0; j < userInput.length; j++) {
-            if (correctA === userInput[j].value) {
+            if (correctA[j] === userInput[j].value) {
                 correctAnswers++;
             }  ; 
         
