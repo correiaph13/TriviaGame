@@ -9,6 +9,7 @@ function questionLayout () {
     //for every i (question) create a div containing it
 
     for (i=0; i<questions.length; i++){
+       var correctA = (questions[i].correctA);
 
 
     var newDivQ = $("<div class = 'questionContainer'>").text(questions[i].Q);
@@ -60,12 +61,13 @@ $("#userAnswers").on("click", function(event){
         alert ("Please answer all the questions first!")
     }
     else {
-        for (let i = 0; i < userInput; i++) {
-            if (questions[i].correctA === userInput[i].value) {
+        for (let i = 0; i < userInput.length; i++) {
+            if (correctA === userInput[i].value) {
                 correctAnswers++;
             }
           console.log(userInput[i].value) ;  
-          console.log(questions[i].correctA)
+          
+          
           
         }
         
